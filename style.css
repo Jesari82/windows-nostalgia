@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(clouds.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header {
+    box-sizing: border-box;
+    background: rgb(13,39,105);
+    background: linear-gradient(90deg, rgba(13,39,105,1) 0%, rgba(170,204,240,1) 100%);
+    color: white;
+    padding: 0.25em 1em 0.35em;
+    font-weight: bold;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.window  {
+    box-sizing: content-box;
+    width: 30em;
+    height: 10.8em;
+    margin: 0 auto;
+    background-color: #C0C0C0;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white black black white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px black;
+    margin: 20px 0px 0px 20px;
+}
+
+.content span {
+    margin: 20px 0px 0px 20px;
+}
+
+.button {
+    display: inline-block;
+    margin: 1.2em 0em 0em 23em;
+    background-color: #C0C0C0;
+    border-style: solid;
+    padding: 5px 15px 10px;
+    border-color: white black black white;
+    text-decoration: none;
+    color: black;
+}
+
